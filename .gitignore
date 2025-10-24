@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Meshtastic
+meshtastic_*
+
+# Pattern files
+patterns/*.png
+patterns/qr_*.png
+patterns/protest_pack_*.json
+patterns/mesh_patterns_compressed.json
+
+# Evidence
+evidence/
+backups/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test files
+test_*
+*.test
+
+# Temporary
+*.tmp
+*.temp
